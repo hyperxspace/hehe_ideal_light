@@ -1,6 +1,6 @@
 # hehe ideal light
 
-## 对理想X星说HEHE,献给爱技术的你
+## 对理想X光说HEHE,献给爱技术的你
 
 ### 快速开始
 
@@ -27,4 +27,5 @@ node app.js
 
 - nodejs
 - 确保adb在环境变量中
+- 确保打开usb调试
 
