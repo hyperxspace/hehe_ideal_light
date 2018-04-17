@@ -16,7 +16,7 @@ function get_question_text () {
     console.log("正在切图...")
     img.cut_screenshot()
     console.log("ok...")
-    console.log("正在识别问题...")    
+    console.log("\n正在思考...等我一会..")    
     // 识别截图
     return ocr.get_question()
     
