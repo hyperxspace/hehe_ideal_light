@@ -1,0 +1,26 @@
+{
+  "name": "hehe_ideal_light",
+  "version": "1.0.0",
+  "description": "ideal light answer assistant",
+  "main": "app.js",
+  "dependencies": {
+    "images": "^3.0.1",
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2",
+    "tesseract.js": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperxspace/hehe_ideal_light.git"
+  },
+  "author": "hyperxspace",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/hyperxspace/hehe_ideal_light/issues"
+  },
+  "homepage": "https://github.com/hyperxspace/hehe_ideal_light#readme"
+}
