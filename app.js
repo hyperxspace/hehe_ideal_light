@@ -39,6 +39,7 @@ async function main() {
     while (true) {
         await run();
         if(count == 80){
+            console.log("\n== 答题完成,Ctrl+C结束 ==")
             break;
         }
     }

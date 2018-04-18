@@ -2,6 +2,8 @@
 
 ## 对理想X光说HEHE,献给爱技术的你
 
+![测试结果](http://italker-inrush.oss-cn-hangzhou.aliyuncs.com/Screenshot_20180418-145830.jpg)
+
 ### 快速开始
 
 
