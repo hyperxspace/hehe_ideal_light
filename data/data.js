@@ -17,7 +17,7 @@ for (let i = 0; i < oneSheet.length; i++) {
         B: oneSheet[i]['B'],
         C: oneSheet[i]['C'],
         D: oneSheet[i]['D'],
-        answer: oneSheet[i]['答案'] + ' : ' + oneSheet[i][oneSheet[i]['答案']]
+        answer: [oneSheet[i]['答案'].replace(/\s+/g,'') + ' : ' + oneSheet[i][oneSheet[i]['答案']]]
     };
 }
 let moreQuestions = {};
@@ -26,7 +26,7 @@ for (let i = 0; i < moreSheet.length; i++) {
         /\s+|['(',')','，','！','。','、',',','“','”','（','）','：']+/g,
         ''
     );
-    let answer = moreSheet[i]['答案'];
+    let answer = moreSheet[i]['答案'].replace(/\s+/g,'');
     let answerArray = [];
     for (let j = 0; j < answer.length; j++) {
         answerArray[j] = answer[j] + ' : ' + moreSheet[i][answer[j]];

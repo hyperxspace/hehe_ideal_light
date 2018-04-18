@@ -4,6 +4,7 @@
   "description": "ideal light answer assistant",
   "main": "app.js",
   "dependencies": {
+    "get-pixels": "^3.3.0",
     "images": "^3.0.1",
     "koa": "^2.5.0",
     "koa-static": "^4.0.2",
