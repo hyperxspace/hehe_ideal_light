@@ -1,7 +1,7 @@
 var exec = require('child_process').execSync;
 
-const CMD_CAP_SCREENSHOT = "adb shell screencap -p '/sdcard/screen.png'"
-const CMD_PULL_SCREENSHOT = "adb pull '/sdcard/screen.png' './screen.png'"
+const CMD_CAP_SCREENSHOT = "adb shell screencap -p /sdcard/screen.png"
+const CMD_PULL_SCREENSHOT = "adb pull /sdcard/screen.png ./screen.png"
 const CMD_TOUCH = "adb shell input tap"
 /**""
  * 进行截图
@@ -23,7 +23,7 @@ function touch(x,y){
     if(x == undefined || y == undefined){
         return;
     }
-    exec(`${CMD_TOUCH} '${x}' '${y}'`)
+    exec(`${CMD_TOUCH} ${x} ${y} `)
 }
 
 module.exports={
