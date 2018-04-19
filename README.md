@@ -30,4 +30,5 @@ node app.js
 - nodejs
 - 确保adb在环境变量中
 - 确保打开usb调试
+- 如果你是Windows用户下载adb到项目目录里
 
